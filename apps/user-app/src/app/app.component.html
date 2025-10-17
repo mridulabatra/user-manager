@@ -1,0 +1,13 @@
+<div class="app-container">
+  <header class="app-header">
+    <h1>{{ title }}</h1>
+  </header>
+
+  <!-- Navigation (optional, can be replaced with Angular Material Navbar) -->
+  <nav>
+    <a routerLink="/login">Login</a> | <a routerLink="/dashboard">Dashboard</a>
+  </nav>
+
+  <!-- Main content area -->
+  <router-outlet></router-outlet>  <!-- This is where routed views will be displayed -->
+</div>
